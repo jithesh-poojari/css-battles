@@ -56,15 +56,14 @@ The goal of this challenge is to create a design resembling a square using HTML 
 <style>
   * {
     background: #62374e;
-  }
-
-  > * {
-    margin: 50 0 0 50;
-    width: 50;
-    height: 50;
-    background: #fdc57b;
-    color: #fdc57b;
-    box-shadow: 0 150px, 250px 0, 250px 150px;
+    > * {
+      margin: 50 0 0 50;
+      width: 50;
+      height: 50;
+      background: #fdc57b;
+      color: #fdc57b;
+      box-shadow: 0 150px, 250px 0, 250px 150px;
+    }
   }
 </style>
 ```
@@ -77,7 +76,8 @@ The goal of this challenge is to create a design resembling a square using HTML 
 
 ### Conclusion
 
-Both methods effectively create a square design, meeting the challenge's requirements. 
+Both methods effectively create a square design, meeting the challenge's requirements.
+
 - Method 1 (Reflection Box) utilizes the box model approach, setting background colors and dimensions while adding a reflection effect.
 - Method 2 (Shadow Box) achieves a similar result using the `box-shadow` property to simulate the square shape with shadows.
 
