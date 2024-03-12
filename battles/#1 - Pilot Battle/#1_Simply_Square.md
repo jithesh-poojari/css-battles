@@ -14,7 +14,6 @@ The goal of this challenge is to create a design resembling a square using HTML 
 - **Score:** 779.62{84}
 
 ```html
-<p>
 <style>
   * {
     background: #5d3a3a;
@@ -35,11 +34,11 @@ The goal of this challenge is to create a design resembling a square using HTML 
 ### Method 2 - Box Shadow Technique
 
 **Stats:**
-- **Match:** 99.9%
-- **Score:** 597.69{255}
+- **Match:** 100%
+- **Score:** 839.08{54}
 
 ```html
-<a style="box-shadow: 0 0 0 2in #b5e0ba, 0 0 0 5in #5d3a3a;"></a>
+<a style=box-shadow:0+0+0+2in#b5e0ba,0+0+0+5in#5d3a3a>
 ```
 
 **Code Explanation:**
