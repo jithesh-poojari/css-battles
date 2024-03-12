@@ -1,7 +1,7 @@
 ## CSS Battle #1 - Simply Square
 
 ![picture of daily target](./images/1.png)  
-[see the daily target](https://cssbattle.dev/play/1)
+[see the target](https://cssbattle.dev/play/1)
 
 ### Challenge Overview
 

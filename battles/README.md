@@ -24,3 +24,4 @@ Feel free to explore the solutions and explanations for each challenge!
 
 - ### [#1 - Pilot Battle](./#1%20-%20Pilot%20Battle/)
   - [#1 - Simply Square](./#1%20-%20Pilot%20Battle/#1_Simply_Square.md)
+  - [#2 - Carrom](./#1%20-%20Pilot%20Battle/#2_Carrom.md)
