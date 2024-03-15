@@ -1,4 +1,4 @@
-## CSS Battle #1 - Simply Square
+## CSS Battle #2 - Carrom
 
 ![picture of daily target](./images/2.png)  
 [see the daily target](https://cssbattle.dev/play/2)
