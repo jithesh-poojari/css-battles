@@ -1,6 +1,6 @@
 ## CSS Battle #2 - Carrom
 
-![picture of daily target](./images/2.png)  
+![picture of daily target](./images/02.png)  
 [see the daily target](https://cssbattle.dev/play/2)
 
 ### Challenge Overview
@@ -51,6 +51,8 @@ The goal of this challenge is to create a design resembling a square using HTML 
 
 - **Match:** 100%
 - **Score:** 707.36{138}
+
+### Code
 
 ```html
 <style>

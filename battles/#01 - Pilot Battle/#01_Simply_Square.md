@@ -1,6 +1,6 @@
 ## CSS Battle #1 - Simply Square
 
-![picture of daily target](./images/1.png)  
+![picture of daily target](./images/01.png)  
 [see the target](https://cssbattle.dev/play/1)
 
 ### Challenge Overview
@@ -12,6 +12,8 @@ The goal of this challenge is to create a design resembling a square using HTML 
 **Stats:**
 - **Match:** 100%
 - **Score:** 779.62{84}
+
+### Code
 
 ```html
 <style>

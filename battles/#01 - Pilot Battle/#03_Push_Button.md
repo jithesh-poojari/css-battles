@@ -1,6 +1,6 @@
 ## CSS Battle #3 - Push Button
 
-![picture of daily target](./images/3.png)  
+![picture of daily target](./images/03.png)  
 [See the daily target](https://cssbattle.dev/play/3)
 
 ### Challenge Overview
@@ -13,6 +13,8 @@ The challenge requires creating a design that resembles a push button using HTML
 
 - **Match:** 100%
 - **Score:** 637.27{249}
+
+### Code
 
 ```html
 <a></a>
