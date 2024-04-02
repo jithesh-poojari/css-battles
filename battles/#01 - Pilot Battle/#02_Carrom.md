@@ -9,6 +9,8 @@ The goal of this challenge is to create a design resembling a square using HTML 
 
 ## Method 1 - Reflection Box
 
+**YouTube Video** : [see video](https://www.youtube.com/watch?v=Z0Asqy0dcvU)
+
 **Stats:**
 
 - **Match:** 100%
@@ -46,6 +48,8 @@ The goal of this challenge is to create a design resembling a square using HTML 
 - **Reflection (`[a]`):** The `[a]` attribute selector applies a reflection effect to the square, adding a visual touch.
 
 ## Method 2 - Shadow Box
+
+**YouTube Video** : [see video](https://www.youtube.com/watch?v=i9WFFFbxYNc)
 
 **Stats:**
 

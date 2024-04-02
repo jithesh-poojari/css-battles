@@ -7,7 +7,9 @@
 
 The goal of this challenge is to create a design resembling a square using HTML and CSS. The provided target image features a square shape against a contrasting background.
 
-### Method 1 - Box Model Approach
+### Method 1 - Box Model Approach  
+
+**YouTube Video** : [see video](https://www.youtube.com/watch?v=Z0Asqy0dcvU)
 
 **Stats:**
 - **Match:** 100%
@@ -34,6 +36,8 @@ The goal of this challenge is to create a design resembling a square using HTML 
 - **Container (`>`):** The `>` selector targets all child elements, ensuring they have a white background `#b5e0ba` and fixed dimensions of 200x200 pixels.
 
 ### Method 2 - Box Shadow Technique
+
+**YouTube Video** : [see video](https://www.youtube.com/watch?v=i9WFFFbxYNc)
 
 **Stats:**
 - **Match:** 100%
