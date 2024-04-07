@@ -10,8 +10,8 @@
 
 **Stats:**
 
-- **Match:** 99.9%
-- **Score:** 597.79{204}
+- **Match:** 100%
+- **Score:** 642.59{235}
 
 ### Code
 
@@ -55,29 +55,31 @@ This method effectively creates a button-like design with a reflection effect, a
 
 ### Method 2 
 
-**YouTube Video**: [see video](https://www.youtube.com/watch?v=sg5pY_UA6AM)
+**YouTube Video**: [see video](https://www.youtube.com/watch?v=8DrxnGBVwiE)
 
 **Stats:**
 
 - **Match:** 100%
-- **Score:** 637.27{249}
+- **Score:** 642.59{235}
 
 ### Code
 
 ```html
 <p></p><p a>
 <style>
-  *{margin:0}
-  body{
+*{
+  margin:0;
+  +*{
     background:#62306D;
     display:grid;
-    place-content:center;
+    place-content:center
   }
+}
   p{
     width:100;
     height:100;
     background:#F7EC7D;
-    border-radius:100px 100px 0 0;
+    border-radius:100q 100q 0 0
   }
   [a]{
     rotate:180deg;
@@ -88,12 +90,12 @@ This method effectively creates a button-like design with a reflection effect, a
 </style>
 ```
 
-**Code Explanation:**
+### Code Explanation:
 
-- **Background (`body`):** The `body` background color is set to a dark purple shade (`#62306D`), providing a visually appealing backdrop for the button.
+- **Background:** The background color is set to a dark purple shade (`#62306D`), providing a visually appealing backdrop for the button.
 
-- **Button (`p`):** Two `<p>` elements are used to create the button shape and its reflection. They are positioned using CSS grid to center them on the page and styled with a yellow background color (`#F7EC7D`) and border-radius to form a rounded shape resembling a push button.
+- **Button (`p`):** Two `<p>` elements are used to create the button shape and its reflection. They are styled with a yellow background color (`#F7EC7D`) and border-radius to form a rounded shape resembling a push button. The first `<p>` element represents the button, and the second `<p>` element represents its reflection.
 
-- **Reflection Effect (`[a]`):** A pseudo-element `[a]` is used to create the reflection effect on the button. It is positioned behind the button, rotated 180 degrees, and styled with a dark purple background color (`#62306D`) and white text color (`#F7EC7D`), creating the illusion of a reflection. Additionally, a box-shadow is applied to create the reflection effect.
+- **Styling (`[a]`):** A pseudo-element `[a]` is used to create the reflection effect on the button. It is positioned behind the button, rotated 180 degrees, and styled with a dark purple background color (`#62306D`) and white text color (`#F7EC7D`), creating the illusion of a reflection. Additionally, a box-shadow is applied to create the reflection effect.
 
 This method effectively creates a button-like design with a reflection effect, achieving a perfect match and a high score.
