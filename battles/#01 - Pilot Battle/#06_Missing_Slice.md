@@ -27,21 +27,18 @@
 </style>
 ```
 
-**Code Explanation:**
+### Code Explanation:
 
 - **Universal Selector (`*`)**:
-  - **Background Color**: Sets the background color of the entire page to `#0B2429`, a dark teal shade.
+  - **Background Color**: Sets the background color of the entire page to `#E3516E`, a shade of pinkish-red.
 
-- **Element Selectors (`p, a`)**:
-  - **Position**: Uses `fixed` to position the elements relative to the viewport, ensuring they stay in place as the page is scrolled.
-  - **Background Color**: Sets the background color of the elements to `#F3AC3C`, a mustard yellow shade.
-  - **Padding**: Adds `60px` padding to control the size of the elements.
-  - **Margin**: Sets the margin of the elements to `22px` top and bottom, and `192px` left and right.
-  - **Border-radius**: Sets the `border-radius` to `65px` for three corners and `0` for the bottom-left corner, creating a unique shape.
+- **Nested Universal Selector (`* *`)**:
+  - **Background**: Uses `conic-gradient` to create a circular gradient with the following color stops:
+    - `#FADE8B` from 0% to 25%, a light yellow.
+    - `#E3516E` from 25% to 50%, matching the page background color.
+    - `#F7F3D7` from 50% to 75%, a very light cream.
+    - `#51B5A9` from 75% to 100%, a teal shade.
+  - **Margin**: Sets the margin to `50px` top and bottom, and `100px` left and right.
+  - **Border-radius**: Sets the `border-radius` to `50%`, creating a circular shape.
 
-- **Element Selector (`a`)**:
-  - **Transform**: Uses `scale(-1, 1)` to flip the element horizontally.
-  - **Margin**: Adjusts the margin of the element to `60px` top and bottom, and `-180px` left and right.
-  - **Box-shadow**: Creates a shadow with `-64px 64px #998235`, positioning the shadow to the left and below the element with a color of `#998235`, a darker mustard shade.
-
-This setup creates a visual design with a dark teal background and two mustard yellow shapes positioned around the page, matching the desired target image. The use of fixed positioning, padding, margin, border-radius, transform, and box-shadow ensures precise placement of the elements to achieve the required visual effect.
+This setup creates a visual design with a pinkish-red background and a circular gradient with four color slices, matching the desired target image. The use of the conic-gradient, margin, and border-radius ensures precise placement and styling of the elements to achieve the required visual effect.
