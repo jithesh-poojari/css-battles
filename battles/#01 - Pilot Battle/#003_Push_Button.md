@@ -1,6 +1,6 @@
 ## CSS Battle #3 - Push Button
 
-![picture of daily target](./images/03.png)  
+![picture of daily target](./images/003.png)  
 [See the daily target](https://cssbattle.dev/play/3)
 
 ### Challenge Overview

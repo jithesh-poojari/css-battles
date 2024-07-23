@@ -1,6 +1,6 @@
 ## CSS Battle #4 - Ups n Downs
 
-![picture of daily target](./images/04.png)  
+![picture of daily target](./images/004.png)  
 [See the daily target](https://cssbattle.dev/play/4)
 
 

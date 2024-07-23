@@ -1,6 +1,6 @@
 ## CSS Battle #6 - Missing Slice
 
-![picture of daily target](./images/06.png)  
+![picture of daily target](./images/006.png)  
 [See the daily target](https://cssbattle.dev/play/6)
 
 ### Method 1

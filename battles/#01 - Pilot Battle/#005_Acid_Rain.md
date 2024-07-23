@@ -1,6 +1,6 @@
 ## CSS Battle #5 - Acid Rain
 
-![picture of daily target](./images/05.png)  
+![picture of daily target](./images/005.png)  
 [See the daily target](https://cssbattle.dev/play/5)
 
 ### Method 1

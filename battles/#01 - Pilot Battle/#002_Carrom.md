@@ -1,6 +1,6 @@
 ## CSS Battle #2 - Carrom
 
-![picture of daily target](./images/02.png)  
+![picture of daily target](./images/002.png)  
 [see the daily target](https://cssbattle.dev/play/2)
 
 ### Challenge Overview

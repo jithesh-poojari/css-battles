@@ -1,6 +1,6 @@
 ## CSS Battle #7 - Leafy Trail
 
-![picture of daily target](./images/07.png)  
+![picture of daily target](./images/007.png)  
 [See the daily target](https://cssbattle.dev/play/7)
 
 ### Method 1
