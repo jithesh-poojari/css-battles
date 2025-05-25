@@ -1,5 +1,5 @@
 ## CSS Battle #203 - Wolverine
-![picture of daily target](./images/#203.png)  
+![picture of daily target](./images/203.png)  
 [See the daily target](https://cssbattle.dev/play/203)
 
 

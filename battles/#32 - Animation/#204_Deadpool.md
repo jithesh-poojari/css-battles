@@ -1,5 +1,5 @@
 ## CSS Battle #204 - Deadpool
-![picture of daily target](./images/#204.png)  
+![picture of daily target](./images/204.png)  
 [See the daily target](https://cssbattle.dev/play/204)
 
 
