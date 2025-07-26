@@ -2,7 +2,7 @@
 
 ![Target](./images/237.png)  
 [Play Challenge](https://cssbattle.dev/play/237)  
-[Watch Solution Video](https://www.youtube.com/watch?v=nP3u_5lynGM)
+[Watch Solution Video](https://www.youtube.com/watch?v=slZ4hFIdnD8)
 
 ---
 
