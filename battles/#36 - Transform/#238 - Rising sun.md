@@ -51,32 +51,33 @@
 
 ## ✅ Code Explanation
 
-This solution builds a **round castle with two symmetrical towers** using a single `<p>` tag and powerful CSS tricks. The layout relies on clever use of the universal selector, adjacent sibling selector, gradients, border radii, and box shadows — all optimized for minimal character usage.
+This solution recreates the **“Rising Sun”** visual using deeply nested elements and optimized CSS. The scene consists of a **large red sun** emerging from a **blue sea**, all laid over a **pale yellow sky**.
 
 ---
 
 ### 🎯 Visual Structure
 
-* The background of the entire page is filled with a dark bluish color (`#3F4869`), establishing the night-sky setting.
-* The first visible shape (a large yellow-red dome) is created using the adjacent sibling selector `* + *`. It applies a **linear gradient** from yellow (`#F4DA64`) to red (`#E25C57`), split evenly at 50%. This dome represents the **main castle roof**.
-* A large top border radius rounds both top corners using `border-radius: 2in 2in 0 0`, forming a perfect semi-circle.
-* The `<p>` element itself is placed fixed at the bottom and contains **box shadows** representing **two smaller circular towers**, flanking the dome symmetrically.
+* The **background** (`#FEFF58`) is set globally via the `*` selector to represent the **morning sky**.
+* The **sea** is built using `+*`, targeting the sibling of the first element (`<p>`), giving it a **light blue fill** (`#D2F8FF`) and thick `11q` solid border to serve as the sea’s frame.
+* Inside this, the `<p>` element uses `background:#CF6939` with a **half-circle shape** (via `border-radius: 2in 2in 0 0`) to depict the **rising sun**.
+* The **sun’s shadow/reflection** effect is achieved using two nested elements (`<a>` and `<b>`) filled with **black** and positioned using negative margins and padding to align precisely below the sun.
 
 ---
 
-### 🧠 Key Techniques
+### 🧠 Techniques Used
 
-* **Adjacent Sibling Selector (`+*`)** is used to target the element right after the first (in this case, `<p>`), allowing it to receive styling without additional tags or IDs.
-* **Linear Gradient** is used creatively to split the dome into two distinct halves, visually suggesting two materials or lighting effects.
-* **Box Shadows** on the `<p>` element replicate round turrets or castle accents by placing colored circles using horizontal offsets and blur.
-* **Position Fixed** is applied to ensure the base and shadows stay in place relative to the viewport, crucial for a fixed layout typical in CSS Battles.
-* **Shorthand margin and padding** are used efficiently to position the elements without lengthy declarations.
+* **Nested selectors (`* + *`, `* *`)**: Used for styling child and sibling elements compactly.
+* **Unit math (e.g., `70+140`)**: Saves characters by letting the browser evaluate expressions instead of writing full values.
+* **`position: fixed`**: Applied to deeply nested elements to keep everything anchored centrally regardless of scroll.
+* **Smart use of `margin` and `padding`**: Precisely aligns the inner black elements to simulate a layered reflection or solar intensity.
+* **Rounded top on `<p>` only**: Using `border-radius` to form the sun without needing extra wrappers.
 
 ---
 
 ### 📦 Final Layout Summary
 
-* Central dome (gradient-filled) = main castle.
-* Two small circular turrets = left and right box shadows.
-* No extra elements needed; all visual depth comes from shadows and gradients.
-* Fully symmetrical layout using only one tag and selector logic.
+* `#FEFF58` background = sky
+* `#D2F8FF` sibling block with solid border = sea
+* `#CF6939` top-rounded block = rising sun
+* Black layers below = sun’s reflection/contrast
+* All achieved with **three HTML tags** and precise CSS — fully optimized for character count.
