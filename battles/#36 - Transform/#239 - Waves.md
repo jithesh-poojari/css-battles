@@ -46,33 +46,35 @@
 
 ## ✅ Code Explanation
 
-This solution recreates the **“Rising Sun”** visual using deeply nested elements and optimized CSS. The scene consists of a **large red sun** emerging from a **blue sea**, all laid over a **pale yellow sky**.
+This solution recreates the **“Waves”** challenge using three nested tags and concise CSS to simulate rolling wave shapes on a blue background.
 
 ---
 
 ### 🎯 Visual Structure
 
-* The **background** (`#FEFF58`) is set globally via the `*` selector to represent the **morning sky**.
-* The **sea** is built using `+*`, targeting the sibling of the first element (`<p>`), giving it a **light blue fill** (`#D2F8FF`) and thick `11q` solid border to serve as the sea’s frame.
-* Inside this, the `<p>` element uses `background:#CF6939` with a **half-circle shape** (via `border-radius: 2in 2in 0 0`) to depict the **rising sun**.
-* The **sun’s shadow/reflection** effect is achieved using two nested elements (`<a>` and `<b>`) filled with **black** and positioned using negative margins and padding to align precisely below the sun.
+* The **background** (`#CEEDFF`) is applied globally using the `*` selector, setting a pale blue base to represent the sea and sky.
+* Three identical elements (`<p>`, `<a>`, `<b>`) are styled to create **stacked wave arcs** using borders and border-radius.
+* Each of these elements has:
+
+  * `border-width: 0 0 30 30`: creates only the bottom and left sides.
+  * `border-radius: 0 0 0 2in`: rounds the bottom-left corner, forming a wave arc.
+  * Large `padding` and `margin` values to define their size and shift their position diagonally.
 
 ---
 
 ### 🧠 Techniques Used
 
-* **Nested selectors (`* + *`, `* *`)**: Used for styling child and sibling elements compactly.
-* **Unit math (e.g., `70+140`)**: Saves characters by letting the browser evaluate expressions instead of writing full values.
-* **`position: fixed`**: Applied to deeply nested elements to keep everything anchored centrally regardless of scroll.
-* **Smart use of `margin` and `padding`**: Precisely aligns the inner black elements to simulate a layered reflection or solar intensity.
-* **Rounded top on `<p>` only**: Using `border-radius` to form the sun without needing extra wrappers.
+* **Mathematical expressions** like `50+120` and `162-3` are evaluated by the browser and used to reduce character count.
+* **Shared styles** are grouped: `p`, `a`, and `b` all receive similar padding, margin, and border styles to avoid repetition.
+* **Stacking**: By adjusting margins (`-50-20`) on `<a>` and `<b>`, the arcs are layered diagonally to create the impression of multiple waves.
+* **Fixed positioning** ensures all elements stay anchored in place across the viewport.
+* The final element `<c>` creates **a circular shape** (`border-radius: 50%`) with a `box-shadow` that duplicates it horizontally, giving the effect of **bubbles or floating elements**.
 
 ---
 
 ### 📦 Final Layout Summary
 
-* `#FEFF58` background = sky
-* `#D2F8FF` sibling block with solid border = sea
-* `#CF6939` top-rounded block = rising sun
-* Black layers below = sun’s reflection/contrast
-* All achieved with **three HTML tags** and precise CSS — fully optimized for character count.
+* `#CEEDFF` background = sky/sea
+* Three stacked arcs using borders = stylized wave layers
+* Circular green element with shadow = bubbles or decorative accents
+* Minimal, elegant structure using **three tags and smart layering** to simulate motion and depth.
